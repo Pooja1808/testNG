@@ -21,13 +21,11 @@ public class SampleOneTest {
 		  System.out.println("Test3 in SampleOneTest..."+id);
 	  }
 	  
-	  @Test
+	  @Test(invocationCount = 8, threadPoolSize = 3, timeOut =5000 )
 	  public void testFour() {
 		  long id= Thread.currentThread().getId();
 		  System.out.println("Test4 in SampleOneTest..."+id);
 	  }
 	  
-	  
-	  
-	}
+	 	}
 

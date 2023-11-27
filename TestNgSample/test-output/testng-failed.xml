@@ -7,6 +7,7 @@
         <methods>
           <include name="javaSearch"/>
           <include name="driverClose"/>
+          <include name="cypressSearch"/>
           <include name="setUp"/>
         </methods>
       </class> <!-- testSample.NewTest -->
